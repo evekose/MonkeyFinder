@@ -6,6 +6,10 @@
              x:DataType="viewmodel:MonkeysViewModel"    
              Title="{Binding Title}"
              x:Class="MonkeyFinder.View.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="REFRESH" />
+    </ContentPage.ToolbarItems>
+    
     <Grid
         ColumnDefinitions="*,*"
         ColumnSpacing="5"
